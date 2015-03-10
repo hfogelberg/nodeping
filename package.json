@@ -1,0 +1,28 @@
+{
+  "name": "nodeping",
+  "version": "1.0.0",
+  "description": "Ping server in Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hfogelberg/nodeping.git"
+  },
+  "keywords": [
+    "uptime",
+    "monitor",
+    "ping"
+  ],
+  "author": "Henrk Fogelberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hfogelberg/nodeping/issues"
+  },
+  "homepage": "https://github.com/hfogelberg/nodeping",
+  "dependencies": {
+    "dateformat": "^1.0.11",
+    "request": "^2.53.0"
+  }
+}
